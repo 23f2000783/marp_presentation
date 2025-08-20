@@ -26,8 +26,7 @@ paginate: true
 ---
 
 <!-- Custom background image -->
-![bg cover](images/background.jpg)
-
+![bg cover](https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg)
 # Custom Background Example
 
 This slide uses a full background image.
@@ -75,3 +74,4 @@ presentation/
 ├── images/          # Backgrounds & assets
 ├── themes/          # Custom themes
 └── package.json     # Build config
+
