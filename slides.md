@@ -1,29 +1,77 @@
 ---
 marp: true
-theme: gaia
+title: Product Documentation with Marp
+author: Technical Writer – 23f2000783@ds.study.iitm.ac.in
+theme: default
 paginate: true
 ---
 
-# Product Documentation
+<!-- _class: lead -->
 
-**Author:** 23f2000783@ds.study.iitm.ac.in
-
----
-
-![bg](https://images.unsplash.com/photo-1517694712202-14dd9538aa97)
+# Product Documentation with Marp
+### Maintainable • Version Controlled • Multi-format
 
 ---
 
-## Key Features
+# Why Marp?
 
--   Feature A: High Performance
--   Feature B: Secure
--   Feature C: Scalable
+- Write slides in **Markdown**
+- Convert to **PDF, PPTX, HTML, or Images**
+- Perfect for:
+  - Technical documentation
+  - Teaching & research
+  - Conference talks
+- Easy integration with **GitHub Pages**
 
 ---
 
-## Algorithmic Complexity
+<!-- Custom background image -->
+![bg cover](images/background.jpg)
 
-The complexity of our main algorithm is expressed as Big O notation:
+# Custom Background Example
 
-$$ O(n \log n) $$
+This slide uses a full background image.
+
+---
+
+# Custom Theme & Styling
+
+<style>
+section {
+  background: #fdf6e3;
+  color: #002b36;
+}
+h1 {
+  color: #b58900;
+}
+blockquote {
+  font-style: italic;
+  color: #268bd2;
+}
+</style>
+
+> Documentation is more effective when it is **consistent, styled, and reusable.**
+
+---
+
+# Algorithmic Complexity
+
+We can write mathematical equations directly:
+
+- Inline math: $O(n \log n)$
+- Block math:
+
+$$
+T(n) = T(n/2) + O(n) \implies T(n) = O(n \log n)
+$$
+
+---
+
+# File Organization
+
+```text
+presentation/
+├── slides.md        # Main presentation
+├── images/          # Backgrounds & assets
+├── themes/          # Custom themes
+└── package.json     # Build config
